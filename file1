@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping Checklist</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Shopping Checklist</h1>
+  <div id="checklist">
+    <input type="text" id="new-item" placeholder="Add new item">
+    <button onclick="addItem()">Add</button>
+    <ul id="items"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
